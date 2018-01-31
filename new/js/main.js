@@ -2,15 +2,20 @@
   
   "use strict";
 
+  var top_scroll_dist=150;
+  $('.scrolling-navbar').delay(2000).animate({"opacity":1});
+
   // Sticky Nav
     $(window).on('scroll', function() {
-        if ($(window).scrollTop() > 200) {
+        if ($(window).scrollTop() > top_scroll_dist) {
+            //$('.scrolling-navbar').animate({"opacity":0});
             $('.scrolling-navbar').addClass('top-nav-collapse');
             //$('#lightlogo').css('display','none');
             //$('#darklogo').css('display','inline')
         } else {
             //$('#lightlogo').css('display','inline');
             //$('#darklogo').css('display','none');
+            //$('.scrolling-navbar').animate({"opacity":1});
             $('.scrolling-navbar').removeClass('top-nav-collapse');
         }
     });
@@ -34,7 +39,7 @@
         });
 
         $(window).on('scroll', function() {
-            if ($(window).scrollTop() > 200) {
+            if ($(window).scrollTop() > top_scroll_dist) {
                 $('.fixed-top').addClass('menu-bg');
                 $('#lightlogo').css('display','none');
                 $('#darklogo').css('display','inline')
@@ -93,7 +98,7 @@
    Sticky Nav
    ========================================================================== */
     $(window).on('scroll', function() {
-        if ($(window).scrollTop() > 200) {
+        if ($(window).scrollTop() > top_scroll_dist) {
             $('.header-top-area').addClass('menu-bg');
         } else {
             $('.header-top-area').removeClass('menu-bg');
