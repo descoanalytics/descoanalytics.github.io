@@ -472,7 +472,7 @@ button:focus {
 }
 
 .scrolling-navbar {
-  opacity:0;
+  opacity:1;
 }
 
 .top-nav-collapse {

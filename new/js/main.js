@@ -3,6 +3,8 @@
   "use strict";
 
   var top_scroll_dist=150;
+  $('.scrolling-navbar').css({"opacity":0});
+  $('#mscroll').css({"opacity":0});
   $('.scrolling-navbar').delay(2000).animate({"opacity":1});
   $('#mscroll').delay(3000).animate({"opacity":1});
 
