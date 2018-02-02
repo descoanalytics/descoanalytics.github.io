@@ -660,8 +660,8 @@ button:focus {
   color: #eee;
 }
 
-#features .section-subtitle {
-  color: #eee
+a {
+  color:#33b391;
 }
 
 #features .icon {
@@ -726,7 +726,7 @@ button:focus {
 
 #features .show-box img {
   position: absolute;
-  bottom: -40px;
+  bottom:20px;
   left: 130px;
   opacity:0.6;
   transform: rotate(30deg);
@@ -993,15 +993,14 @@ button:focus {
 }
 
 .testimonial-item img {
-  width: 80px;
-  border: 3px solid #eee;
+  border: none;
   height: 80px;
-  border-radius: 50%;
 }
 
 .testimonial-item .testimonial-text h3 {
   font-size: 15px;
   font-weight: 700;
+  margin-top:40px;
 }
 
 .testimonial-item .testimonial-text span {
@@ -1023,6 +1022,10 @@ button:focus {
 
 .owl-theme .owl-controls {
   margin-top: 20px;
+}
+
+#testimonial .section-title {
+  color: #eee;
 }
 
 /* ==========================================================================
@@ -1110,6 +1113,15 @@ button:focus {
 .single-team .social-list .linkedin a:hover {
   background: #007bb6;
   color: #eee;
+}
+.team-desc{
+  padding:5px;
+  margin-top:15px;
+  text-align: justify;
+}
+.team-desc span{
+  color: #33b391;
+  font-weight: bolder;
 }
 
 /* ==========================================================================
