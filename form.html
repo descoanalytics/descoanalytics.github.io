@@ -21,11 +21,16 @@ p {
   font-size: 18px;
   line-height: 26px;
   text-align: center;
+  overflow:hidden;
 }
 h1 {
   font-size: 28px;
   line-height: 46px;
   text-align: center;
+  overflow:hidden;
+}
+form {
+  overflow:hidden;
 }
 .form-control input,textarea {
   width: 90%;
@@ -87,11 +92,11 @@ h1 {
 }
 
 </style>
-<form action="https://formspree.io/contact@descoanalytics.com" method="POST" class="form-control">
+<form action="https://formspree.io/denes@descoanalytics.com" method="POST" class="form-control">
 <input name="name" placeholder="Your name" style="margin-top: 120px;"></input>
 <input name="_replyto" type="email" placeholder="Your email">
 <input name="_next" value="https://www.descoanalytics.com/tx.html" type="text" style="display:none;"></input>
 <input name="_gotcha" type="text" style="display:none;"></input>
 <textarea name="message" placeholder="Your message" style="height:130px;"></textarea>
-<button class="btn btn-common" type="submit" style="margin-top: 5px;">Send</button>
+<button class="btn btn-common" type="submit" style="margin-top: 20px;">Send</button>
 </form>
